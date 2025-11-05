@@ -21,5 +21,7 @@ Add the following at the bottom of the file:
 Change `*/15` to `*/` and your desired period between connections in minutes
 Save and Exit the editor and the script will now be scheduled to run every 15 minutes
 
+Every time the sript runs, the Log in the chosen location will be updated with success or failure depending on the state of the sessions. the logging is rather simple as you can see from the code, but does what it needs to.
+
 
 Michael Madell 2025
